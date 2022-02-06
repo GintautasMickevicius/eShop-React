@@ -5,15 +5,11 @@ import Cart from "./components/Cart/Cart";
 
 function App() {
   return (
-   <Router>
-    <Header />
-    <Routes>
-    <Route path='/' element={<ProductsList />} />
-     <Route path='/cart' element={<Cart />} />
-     </Routes>
-     </Router>
-  
-  );
+<>
+<ProductsList />
+</> 
+ 
+  )
 }
 
 export default App;
